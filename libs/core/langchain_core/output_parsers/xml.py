@@ -154,3 +154,4 @@ def nested_element(path: List[str], elem: ET.Element) -> Any:
         return AddableDict({elem.tag: elem.text})
     else:
         return AddableDict({path[0]: [nested_element(path[1:], elem)]})
+
