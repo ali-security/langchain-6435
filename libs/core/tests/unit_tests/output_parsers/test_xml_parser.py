@@ -10,7 +10,7 @@ DEF_RESULT_ENCODING = """<?xml version="1.0" encoding="UTF-8"?>
         <baz>slim.shady</baz>
     </bar>
     <baz>tag</baz>
-</foo>"""
+</foo>     """
 
 DEF_RESULT_EXPECTED = {
     "foo": [
